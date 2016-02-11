@@ -1,0 +1,580 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A036FD5C1BE38B7E005D8195 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A036FD5B1BE38B7E005D8195 /* AppDelegate.swift */; };
+		A036FD5E1BE38B7E005D8195 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A036FD5D1BE38B7E005D8195 /* ViewController.swift */; };
+		A036FD611BE38B7E005D8195 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A036FD5F1BE38B7E005D8195 /* Main.storyboard */; };
+		A036FD631BE38B7E005D8195 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A036FD621BE38B7E005D8195 /* Assets.xcassets */; };
+		A036FD661BE38B7E005D8195 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A036FD641BE38B7E005D8195 /* LaunchScreen.storyboard */; };
+		A036FD711BE38B7E005D8195 /* GplusDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A036FD701BE38B7E005D8195 /* GplusDemoTests.swift */; };
+		A036FD7C1BE38B7E005D8195 /* GplusDemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A036FD7B1BE38B7E005D8195 /* GplusDemoUITests.swift */; };
+		A036FD8D1BE38FD1005D8195 /* AddressBook.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A036FD8C1BE38FD1005D8195 /* AddressBook.framework */; };
+		A036FD8F1BE38FDD005D8195 /* AssetsLibrary.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A036FD8E1BE38FDD005D8195 /* AssetsLibrary.framework */; };
+		A036FD911BE38FE5005D8195 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A036FD901BE38FE5005D8195 /* Foundation.framework */; };
+		A036FD931BE38FF9005D8195 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A036FD921BE38FF9005D8195 /* CoreLocation.framework */; };
+		A036FD951BE39002005D8195 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A036FD941BE39002005D8195 /* CoreGraphics.framework */; };
+		A036FD971BE3900E005D8195 /* CoreMotion.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A036FD961BE3900E005D8195 /* CoreMotion.framework */; };
+		A036FD991BE39016005D8195 /* CoreText.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A036FD981BE39016005D8195 /* CoreText.framework */; };
+		A036FD9B1BE3902A005D8195 /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A036FD9A1BE3902A005D8195 /* MediaPlayer.framework */; };
+		A036FD9D1BE39032005D8195 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A036FD9C1BE39032005D8195 /* Security.framework */; };
+		A036FD9F1BE39042005D8195 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A036FD9E1BE39042005D8195 /* SystemConfiguration.framework */; };
+		A036FDA11BE3904A005D8195 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A036FDA01BE3904A005D8195 /* UIKit.framework */; };
+		A036FDA51BE3906D005D8195 /* GoogleOpenSource.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A036FDA21BE3906D005D8195 /* GoogleOpenSource.framework */; };
+		A036FDA61BE3906D005D8195 /* GooglePlus.bundle in Resources */ = {isa = PBXBuildFile; fileRef = A036FDA31BE3906D005D8195 /* GooglePlus.bundle */; };
+		A036FDA71BE3906D005D8195 /* GooglePlus.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A036FDA41BE3906D005D8195 /* GooglePlus.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A036FD6D1BE38B7E005D8195 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A036FD501BE38B7E005D8195 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A036FD571BE38B7E005D8195;
+			remoteInfo = GplusDemo;
+		};
+		A036FD781BE38B7E005D8195 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A036FD501BE38B7E005D8195 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A036FD571BE38B7E005D8195;
+			remoteInfo = GplusDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A036FD581BE38B7E005D8195 /* GplusDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GplusDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A036FD5B1BE38B7E005D8195 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A036FD5D1BE38B7E005D8195 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		A036FD601BE38B7E005D8195 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A036FD621BE38B7E005D8195 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A036FD651BE38B7E005D8195 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A036FD671BE38B7E005D8195 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A036FD6C1BE38B7E005D8195 /* GplusDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GplusDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A036FD701BE38B7E005D8195 /* GplusDemoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GplusDemoTests.swift; sourceTree = "<group>"; };
+		A036FD721BE38B7E005D8195 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A036FD771BE38B7E005D8195 /* GplusDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GplusDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A036FD7B1BE38B7E005D8195 /* GplusDemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GplusDemoUITests.swift; sourceTree = "<group>"; };
+		A036FD7D1BE38B7E005D8195 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A036FD8C1BE38FD1005D8195 /* AddressBook.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AddressBook.framework; path = System/Library/Frameworks/AddressBook.framework; sourceTree = SDKROOT; };
+		A036FD8E1BE38FDD005D8195 /* AssetsLibrary.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AssetsLibrary.framework; path = System/Library/Frameworks/AssetsLibrary.framework; sourceTree = SDKROOT; };
+		A036FD901BE38FE5005D8195 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		A036FD921BE38FF9005D8195 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		A036FD941BE39002005D8195 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		A036FD961BE3900E005D8195 /* CoreMotion.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMotion.framework; path = System/Library/Frameworks/CoreMotion.framework; sourceTree = SDKROOT; };
+		A036FD981BE39016005D8195 /* CoreText.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreText.framework; path = System/Library/Frameworks/CoreText.framework; sourceTree = SDKROOT; };
+		A036FD9A1BE3902A005D8195 /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
+		A036FD9C1BE39032005D8195 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		A036FD9E1BE39042005D8195 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		A036FDA01BE3904A005D8195 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		A036FDA21BE3906D005D8195 /* GoogleOpenSource.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = GoogleOpenSource.framework; sourceTree = "<group>"; };
+		A036FDA31BE3906D005D8195 /* GooglePlus.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = GooglePlus.bundle; sourceTree = "<group>"; };
+		A036FDA41BE3906D005D8195 /* GooglePlus.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = GooglePlus.framework; sourceTree = "<group>"; };
+		A036FDA81BE3952A005D8195 /* GplusDemo-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "GplusDemo-Bridging-Header.h"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A036FD551BE38B7E005D8195 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A036FDA11BE3904A005D8195 /* UIKit.framework in Frameworks */,
+				A036FD9F1BE39042005D8195 /* SystemConfiguration.framework in Frameworks */,
+				A036FD9D1BE39032005D8195 /* Security.framework in Frameworks */,
+				A036FD9B1BE3902A005D8195 /* MediaPlayer.framework in Frameworks */,
+				A036FD991BE39016005D8195 /* CoreText.framework in Frameworks */,
+				A036FDA71BE3906D005D8195 /* GooglePlus.framework in Frameworks */,
+				A036FD971BE3900E005D8195 /* CoreMotion.framework in Frameworks */,
+				A036FD951BE39002005D8195 /* CoreGraphics.framework in Frameworks */,
+				A036FD931BE38FF9005D8195 /* CoreLocation.framework in Frameworks */,
+				A036FD911BE38FE5005D8195 /* Foundation.framework in Frameworks */,
+				A036FD8F1BE38FDD005D8195 /* AssetsLibrary.framework in Frameworks */,
+				A036FDA51BE3906D005D8195 /* GoogleOpenSource.framework in Frameworks */,
+				A036FD8D1BE38FD1005D8195 /* AddressBook.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A036FD691BE38B7E005D8195 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A036FD741BE38B7E005D8195 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A036FD4F1BE38B7E005D8195 = {
+			isa = PBXGroup;
+			children = (
+				A036FDA01BE3904A005D8195 /* UIKit.framework */,
+				A036FD9E1BE39042005D8195 /* SystemConfiguration.framework */,
+				A036FD9C1BE39032005D8195 /* Security.framework */,
+				A036FD9A1BE3902A005D8195 /* MediaPlayer.framework */,
+				A036FD981BE39016005D8195 /* CoreText.framework */,
+				A036FD961BE3900E005D8195 /* CoreMotion.framework */,
+				A036FD941BE39002005D8195 /* CoreGraphics.framework */,
+				A036FD921BE38FF9005D8195 /* CoreLocation.framework */,
+				A036FD901BE38FE5005D8195 /* Foundation.framework */,
+				A036FD8E1BE38FDD005D8195 /* AssetsLibrary.framework */,
+				A036FD8C1BE38FD1005D8195 /* AddressBook.framework */,
+				A036FD5A1BE38B7E005D8195 /* GplusDemo */,
+				A036FD6F1BE38B7E005D8195 /* GplusDemoTests */,
+				A036FD7A1BE38B7E005D8195 /* GplusDemoUITests */,
+				A036FD591BE38B7E005D8195 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A036FD591BE38B7E005D8195 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A036FD581BE38B7E005D8195 /* GplusDemo.app */,
+				A036FD6C1BE38B7E005D8195 /* GplusDemoTests.xctest */,
+				A036FD771BE38B7E005D8195 /* GplusDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A036FD5A1BE38B7E005D8195 /* GplusDemo */ = {
+			isa = PBXGroup;
+			children = (
+				A036FDA81BE3952A005D8195 /* GplusDemo-Bridging-Header.h */,
+				A036FDA21BE3906D005D8195 /* GoogleOpenSource.framework */,
+				A036FDA31BE3906D005D8195 /* GooglePlus.bundle */,
+				A036FDA41BE3906D005D8195 /* GooglePlus.framework */,
+				A036FD5B1BE38B7E005D8195 /* AppDelegate.swift */,
+				A036FD5D1BE38B7E005D8195 /* ViewController.swift */,
+				A036FD5F1BE38B7E005D8195 /* Main.storyboard */,
+				A036FD621BE38B7E005D8195 /* Assets.xcassets */,
+				A036FD641BE38B7E005D8195 /* LaunchScreen.storyboard */,
+				A036FD671BE38B7E005D8195 /* Info.plist */,
+			);
+			path = GplusDemo;
+			sourceTree = "<group>";
+		};
+		A036FD6F1BE38B7E005D8195 /* GplusDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				A036FD701BE38B7E005D8195 /* GplusDemoTests.swift */,
+				A036FD721BE38B7E005D8195 /* Info.plist */,
+			);
+			path = GplusDemoTests;
+			sourceTree = "<group>";
+		};
+		A036FD7A1BE38B7E005D8195 /* GplusDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A036FD7B1BE38B7E005D8195 /* GplusDemoUITests.swift */,
+				A036FD7D1BE38B7E005D8195 /* Info.plist */,
+			);
+			path = GplusDemoUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A036FD571BE38B7E005D8195 /* GplusDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A036FD801BE38B7E005D8195 /* Build configuration list for PBXNativeTarget "GplusDemo" */;
+			buildPhases = (
+				A036FD541BE38B7E005D8195 /* Sources */,
+				A036FD551BE38B7E005D8195 /* Frameworks */,
+				A036FD561BE38B7E005D8195 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GplusDemo;
+			productName = GplusDemo;
+			productReference = A036FD581BE38B7E005D8195 /* GplusDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A036FD6B1BE38B7E005D8195 /* GplusDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A036FD831BE38B7E005D8195 /* Build configuration list for PBXNativeTarget "GplusDemoTests" */;
+			buildPhases = (
+				A036FD681BE38B7E005D8195 /* Sources */,
+				A036FD691BE38B7E005D8195 /* Frameworks */,
+				A036FD6A1BE38B7E005D8195 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A036FD6E1BE38B7E005D8195 /* PBXTargetDependency */,
+			);
+			name = GplusDemoTests;
+			productName = GplusDemoTests;
+			productReference = A036FD6C1BE38B7E005D8195 /* GplusDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A036FD761BE38B7E005D8195 /* GplusDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A036FD861BE38B7E005D8195 /* Build configuration list for PBXNativeTarget "GplusDemoUITests" */;
+			buildPhases = (
+				A036FD731BE38B7E005D8195 /* Sources */,
+				A036FD741BE38B7E005D8195 /* Frameworks */,
+				A036FD751BE38B7E005D8195 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A036FD791BE38B7E005D8195 /* PBXTargetDependency */,
+			);
+			name = GplusDemoUITests;
+			productName = GplusDemoUITests;
+			productReference = A036FD771BE38B7E005D8195 /* GplusDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A036FD501BE38B7E005D8195 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0710;
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = "NGI-NOMAN";
+				TargetAttributes = {
+					A036FD571BE38B7E005D8195 = {
+						CreatedOnToolsVersion = 7.1;
+					};
+					A036FD6B1BE38B7E005D8195 = {
+						CreatedOnToolsVersion = 7.1;
+						TestTargetID = A036FD571BE38B7E005D8195;
+					};
+					A036FD761BE38B7E005D8195 = {
+						CreatedOnToolsVersion = 7.1;
+						TestTargetID = A036FD571BE38B7E005D8195;
+					};
+				};
+			};
+			buildConfigurationList = A036FD531BE38B7E005D8195 /* Build configuration list for PBXProject "GplusDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A036FD4F1BE38B7E005D8195;
+			productRefGroup = A036FD591BE38B7E005D8195 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A036FD571BE38B7E005D8195 /* GplusDemo */,
+				A036FD6B1BE38B7E005D8195 /* GplusDemoTests */,
+				A036FD761BE38B7E005D8195 /* GplusDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A036FD561BE38B7E005D8195 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A036FD661BE38B7E005D8195 /* LaunchScreen.storyboard in Resources */,
+				A036FD631BE38B7E005D8195 /* Assets.xcassets in Resources */,
+				A036FDA61BE3906D005D8195 /* GooglePlus.bundle in Resources */,
+				A036FD611BE38B7E005D8195 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A036FD6A1BE38B7E005D8195 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A036FD751BE38B7E005D8195 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A036FD541BE38B7E005D8195 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A036FD5E1BE38B7E005D8195 /* ViewController.swift in Sources */,
+				A036FD5C1BE38B7E005D8195 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A036FD681BE38B7E005D8195 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A036FD711BE38B7E005D8195 /* GplusDemoTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A036FD731BE38B7E005D8195 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A036FD7C1BE38B7E005D8195 /* GplusDemoUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A036FD6E1BE38B7E005D8195 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A036FD571BE38B7E005D8195 /* GplusDemo */;
+			targetProxy = A036FD6D1BE38B7E005D8195 /* PBXContainerItemProxy */;
+		};
+		A036FD791BE38B7E005D8195 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A036FD571BE38B7E005D8195 /* GplusDemo */;
+			targetProxy = A036FD781BE38B7E005D8195 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A036FD5F1BE38B7E005D8195 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A036FD601BE38B7E005D8195 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A036FD641BE38B7E005D8195 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A036FD651BE38B7E005D8195 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A036FD7E1BE38B7E005D8195 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A036FD7F1BE38B7E005D8195 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A036FD811BE38B7E005D8195 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/GplusDemo",
+				);
+				INFOPLIST_FILE = GplusDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ngi.GplusDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "GplusDemo/GplusDemo-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A036FD821BE38B7E005D8195 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/GplusDemo",
+				);
+				INFOPLIST_FILE = GplusDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ngi.GplusDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "GplusDemo/GplusDemo-Bridging-Header.h";
+			};
+			name = Release;
+		};
+		A036FD841BE38B7E005D8195 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = GplusDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ngi.GplusDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GplusDemo.app/GplusDemo";
+			};
+			name = Debug;
+		};
+		A036FD851BE38B7E005D8195 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = GplusDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ngi.GplusDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GplusDemo.app/GplusDemo";
+			};
+			name = Release;
+		};
+		A036FD871BE38B7E005D8195 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = GplusDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ngi.GplusDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = GplusDemo;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		A036FD881BE38B7E005D8195 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = GplusDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ngi.GplusDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = GplusDemo;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A036FD531BE38B7E005D8195 /* Build configuration list for PBXProject "GplusDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A036FD7E1BE38B7E005D8195 /* Debug */,
+				A036FD7F1BE38B7E005D8195 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A036FD801BE38B7E005D8195 /* Build configuration list for PBXNativeTarget "GplusDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A036FD811BE38B7E005D8195 /* Debug */,
+				A036FD821BE38B7E005D8195 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		A036FD831BE38B7E005D8195 /* Build configuration list for PBXNativeTarget "GplusDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A036FD841BE38B7E005D8195 /* Debug */,
+				A036FD851BE38B7E005D8195 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		A036FD861BE38B7E005D8195 /* Build configuration list for PBXNativeTarget "GplusDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A036FD871BE38B7E005D8195 /* Debug */,
+				A036FD881BE38B7E005D8195 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A036FD501BE38B7E005D8195 /* Project object */;
+}

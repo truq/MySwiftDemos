@@ -1,0 +1,284 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9059" systemVersion="15A284" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9049"/>
+        <capability name="Alignment constraints with different attributes" minToolsVersion="5.1"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="ScrollViewWithPagingDemo" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="SoA-ia-13W">
+                                <rect key="frame" x="10" y="10" width="46" height="30"/>
+                                <animations/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="40" id="5GB-CT-nhi"/>
+                                    <constraint firstAttribute="width" constant="46" id="Ujo-ep-fbQ"/>
+                                    <constraint firstAttribute="height" constant="40" id="erF-C8-y2n"/>
+                                    <constraint firstAttribute="height" constant="43" id="lCF-sy-icv"/>
+                                    <constraint firstAttribute="width" constant="46" id="peI-w4-U05"/>
+                                </constraints>
+                                <state key="normal" image="cancel-icon.png"/>
+                                <variation key="default">
+                                    <mask key="constraints">
+                                        <exclude reference="5GB-CT-nhi"/>
+                                        <exclude reference="Ujo-ep-fbQ"/>
+                                        <exclude reference="erF-C8-y2n"/>
+                                        <exclude reference="lCF-sy-icv"/>
+                                        <exclude reference="peI-w4-U05"/>
+                                    </mask>
+                                </variation>
+                                <variation key="widthClass=compact">
+                                    <mask key="constraints">
+                                        <include reference="5GB-CT-nhi"/>
+                                        <include reference="erF-C8-y2n"/>
+                                    </mask>
+                                </variation>
+                                <variation key="heightClass=compact-widthClass=regular">
+                                    <mask key="constraints">
+                                        <include reference="peI-w4-U05"/>
+                                    </mask>
+                                </variation>
+                                <variation key="heightClass=regular-widthClass=regular">
+                                    <mask key="constraints">
+                                        <include reference="Ujo-ep-fbQ"/>
+                                        <include reference="lCF-sy-icv"/>
+                                    </mask>
+                                </variation>
+                            </button>
+                            <pageControl opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" numberOfPages="3" translatesAutoresizingMaskIntoConstraints="NO" id="Im3-vI-5i7">
+                                <rect key="frame" x="247" y="528" width="106" height="37"/>
+                                <animations/>
+                                <color key="backgroundColor" red="1" green="0.18923288567451635" blue="0.31687761219837196" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="130" id="92H-Th-ZOR"/>
+                                    <constraint firstAttribute="width" constant="106" id="ROs-gE-2fT"/>
+                                    <constraint firstAttribute="width" constant="106" id="YEr-5g-Wls"/>
+                                </constraints>
+                                <color key="pageIndicatorTintColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                <color key="currentPageIndicatorTintColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                <variation key="default">
+                                    <mask key="constraints">
+                                        <exclude reference="92H-Th-ZOR"/>
+                                        <exclude reference="ROs-gE-2fT"/>
+                                        <exclude reference="YEr-5g-Wls"/>
+                                    </mask>
+                                </variation>
+                                <variation key="widthClass=compact">
+                                    <mask key="constraints">
+                                        <include reference="92H-Th-ZOR"/>
+                                    </mask>
+                                </variation>
+                                <variation key="heightClass=compact-widthClass=regular">
+                                    <mask key="constraints">
+                                        <include reference="ROs-gE-2fT"/>
+                                    </mask>
+                                </variation>
+                                <variation key="heightClass=regular-widthClass=regular">
+                                    <mask key="constraints">
+                                        <include reference="YEr-5g-Wls"/>
+                                    </mask>
+                                </variation>
+                            </pageControl>
+                        </subviews>
+                        <animations/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="SoA-ia-13W" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="5Hn-lc-Mna"/>
+                            <constraint firstItem="Im3-vI-5i7" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="6BC-pZ-9WQ"/>
+                            <constraint firstItem="Im3-vI-5i7" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="7eB-n8-hJc"/>
+                            <constraint firstItem="SoA-ia-13W" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" id="IrD-Of-A7F"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="Im3-vI-5i7" secondAttribute="bottom" constant="71" id="Iv5-ii-bmP"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="SoA-ia-13W" secondAttribute="bottom" constant="360" id="JmK-Lj-nw4"/>
+                            <constraint firstItem="Im3-vI-5i7" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="Mwb-kV-12b"/>
+                            <constraint firstItem="Im3-vI-5i7" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="NtG-wg-mIU"/>
+                            <constraint firstItem="SoA-ia-13W" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="S3P-On-rFA"/>
+                            <constraint firstItem="SoA-ia-13W" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="topMargin" constant="10" id="Ui8-MS-W9g"/>
+                            <constraint firstItem="SoA-ia-13W" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="-5" id="YiF-lQ-yah"/>
+                            <constraint firstItem="SoA-ia-13W" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" id="qoE-NR-c49"/>
+                            <constraint firstAttribute="bottom" secondItem="Im3-vI-5i7" secondAttribute="bottom" constant="20" symbolic="YES" id="tRi-dd-wS3"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="Im3-vI-5i7" secondAttribute="bottom" constant="23" id="v5E-6D-SRd"/>
+                        </constraints>
+                        <variation key="default">
+                            <mask key="subviews">
+                                <exclude reference="SoA-ia-13W"/>
+                            </mask>
+                            <mask key="constraints">
+                                <exclude reference="5Hn-lc-Mna"/>
+                                <exclude reference="IrD-Of-A7F"/>
+                                <exclude reference="S3P-On-rFA"/>
+                                <exclude reference="Ui8-MS-W9g"/>
+                                <exclude reference="YiF-lQ-yah"/>
+                                <exclude reference="qoE-NR-c49"/>
+                                <exclude reference="6BC-pZ-9WQ"/>
+                                <exclude reference="7eB-n8-hJc"/>
+                                <exclude reference="Mwb-kV-12b"/>
+                                <exclude reference="NtG-wg-mIU"/>
+                                <exclude reference="tRi-dd-wS3"/>
+                                <exclude reference="Iv5-ii-bmP"/>
+                                <exclude reference="JmK-Lj-nw4"/>
+                                <exclude reference="v5E-6D-SRd"/>
+                            </mask>
+                        </variation>
+                        <variation key="widthClass=compact">
+                            <mask key="subviews">
+                                <include reference="SoA-ia-13W"/>
+                            </mask>
+                            <mask key="constraints">
+                                <include reference="5Hn-lc-Mna"/>
+                                <include reference="IrD-Of-A7F"/>
+                                <include reference="7eB-n8-hJc"/>
+                                <include reference="v5E-6D-SRd"/>
+                            </mask>
+                        </variation>
+                        <variation key="heightClass=compact-widthClass=compact">
+                            <mask key="constraints">
+                                <include reference="NtG-wg-mIU"/>
+                            </mask>
+                        </variation>
+                        <variation key="heightClass=compact-widthClass=regular">
+                            <mask key="subviews">
+                                <include reference="SoA-ia-13W"/>
+                            </mask>
+                            <mask key="constraints">
+                                <include reference="Ui8-MS-W9g"/>
+                                <include reference="YiF-lQ-yah"/>
+                                <include reference="6BC-pZ-9WQ"/>
+                                <include reference="tRi-dd-wS3"/>
+                                <include reference="JmK-Lj-nw4"/>
+                            </mask>
+                        </variation>
+                        <variation key="heightClass=regular-widthClass=regular">
+                            <mask key="subviews">
+                                <include reference="SoA-ia-13W"/>
+                            </mask>
+                            <mask key="constraints">
+                                <include reference="S3P-On-rFA"/>
+                                <include reference="qoE-NR-c49"/>
+                                <include reference="Mwb-kV-12b"/>
+                                <include reference="Iv5-ii-bmP"/>
+                            </mask>
+                        </variation>
+                    </view>
+                    <connections>
+                        <outlet property="pageControl" destination="Im3-vI-5i7" id="qcA-PQ-Oui"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+                <view contentMode="scaleToFill" id="lr3-va-9y6" userLabel="Frist-View">
+                    <rect key="frame" x="0.0" y="58" width="600" height="436"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <subviews>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Welcome! to began Enter address of each property you own." textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="EL7-Jc-AMK">
+                            <rect key="frame" x="134" y="78" width="331" height="42"/>
+                            <animations/>
+                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                            <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                            <nil key="highlightedColor"/>
+                            <variation key="widthClass=compact" fixedFrame="YES">
+                                <rect key="frame" x="35" y="58" width="331" height="42"/>
+                            </variation>
+                        </label>
+                        <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="pMn-f4-d3x" userLabel="Home-Icon-View">
+                            <rect key="frame" x="208" y="141" width="185" height="185"/>
+                            <subviews>
+                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="home-icon.png" translatesAutoresizingMaskIntoConstraints="NO" id="MoO-CB-B5E">
+                                    <rect key="frame" x="6" y="6" width="55" height="55"/>
+                                    <animations/>
+                                    <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                    <variation key="widthClass=compact" fixedFrame="YES">
+                                        <rect key="frame" x="5" y="5" width="55" height="55"/>
+                                    </variation>
+                                </imageView>
+                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="home-icon.png" translatesAutoresizingMaskIntoConstraints="NO" id="WEs-pG-sLL">
+                                    <rect key="frame" x="65" y="6" width="55" height="55"/>
+                                    <animations/>
+                                    <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                    <variation key="widthClass=compact" fixedFrame="YES">
+                                        <rect key="frame" x="65" y="5" width="55" height="55"/>
+                                    </variation>
+                                </imageView>
+                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="home-icon.png" translatesAutoresizingMaskIntoConstraints="NO" id="x5e-li-46X">
+                                    <rect key="frame" x="124" y="6" width="55" height="55"/>
+                                    <animations/>
+                                    <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                    <variation key="widthClass=compact" fixedFrame="YES">
+                                        <rect key="frame" x="125" y="5" width="55" height="55"/>
+                                    </variation>
+                                </imageView>
+                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="home-icon.png" translatesAutoresizingMaskIntoConstraints="NO" id="fnp-n9-Ewu">
+                                    <rect key="frame" x="6" y="65" width="55" height="55"/>
+                                    <animations/>
+                                    <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                    <variation key="widthClass=compact" fixedFrame="YES">
+                                        <rect key="frame" x="5" y="65" width="55" height="55"/>
+                                    </variation>
+                                </imageView>
+                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="home-icon.png" translatesAutoresizingMaskIntoConstraints="NO" id="XVb-s0-62b">
+                                    <rect key="frame" x="65" y="65" width="55" height="55"/>
+                                    <animations/>
+                                    <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                </imageView>
+                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="home-icon.png" translatesAutoresizingMaskIntoConstraints="NO" id="vBx-Ba-CJU">
+                                    <rect key="frame" x="124" y="65" width="55" height="55"/>
+                                    <animations/>
+                                    <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                    <variation key="widthClass=compact" fixedFrame="YES">
+                                        <rect key="frame" x="125" y="65" width="55" height="55"/>
+                                    </variation>
+                                </imageView>
+                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="home-icon.png" translatesAutoresizingMaskIntoConstraints="NO" id="Op8-pU-dxO">
+                                    <rect key="frame" x="6" y="124" width="55" height="55"/>
+                                    <animations/>
+                                    <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                    <variation key="widthClass=compact" fixedFrame="YES">
+                                        <rect key="frame" x="5" y="125" width="55" height="55"/>
+                                    </variation>
+                                </imageView>
+                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="home-icon.png" translatesAutoresizingMaskIntoConstraints="NO" id="Jt5-Kj-4ED">
+                                    <rect key="frame" x="65" y="124" width="55" height="55"/>
+                                    <animations/>
+                                    <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                    <variation key="widthClass=compact" fixedFrame="YES">
+                                        <rect key="frame" x="65" y="125" width="55" height="55"/>
+                                    </variation>
+                                </imageView>
+                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="home-icon.png" translatesAutoresizingMaskIntoConstraints="NO" id="7YH-YC-ERw">
+                                    <rect key="frame" x="124" y="124" width="55" height="55"/>
+                                    <animations/>
+                                    <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                    <variation key="widthClass=compact" fixedFrame="YES">
+                                        <rect key="frame" x="125" y="125" width="55" height="55"/>
+                                    </variation>
+                                </imageView>
+                            </subviews>
+                            <animations/>
+                            <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                            <variation key="widthClass=compact" fixedFrame="YES">
+                                <rect key="frame" x="108" y="108" width="185" height="185"/>
+                            </variation>
+                        </view>
+                    </subviews>
+                    <animations/>
+                    <color key="backgroundColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                </view>
+            </objects>
+            <point key="canvasLocation" x="400.5" y="327"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="cancel-icon.png" width="20" height="20"/>
+        <image name="home-icon.png" width="36" height="36"/>
+    </resources>
+</document>

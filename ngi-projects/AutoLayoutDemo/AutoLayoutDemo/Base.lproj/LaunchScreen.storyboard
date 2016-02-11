@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9059" systemVersion="15A284" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" initialViewController="01J-lp-oVM">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9049"/>
+        <capability name="Constraints with non-1.0 multipliers" minToolsVersion="5.1"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="EHf-IW-A2E">
+            <objects>
+                <viewController id="01J-lp-oVM" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Llm-lL-Icb"/>
+                        <viewControllerLayoutGuide type="bottom" id="xb3-aO-Qok"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="HousePriceApp" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="20" translatesAutoresizingMaskIntoConstraints="NO" id="Ztn-Eh-zi7">
+                                <rect key="frame" x="152" y="352" width="295.5" height="48"/>
+                                <animations/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="40"/>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="TGs-d7-rw5">
+                                <rect key="frame" x="260" y="500" width="80" height="80"/>
+                                <animations/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="small-logo.png" translatesAutoresizingMaskIntoConstraints="NO" id="0uv-VW-7QE">
+                                <rect key="frame" x="88" y="256" width="424" height="88"/>
+                                <animations/>
+                            </imageView>
+                        </subviews>
+                        <animations/>
+                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="0uv-VW-7QE" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="7Af-Jk-43w"/>
+                            <constraint firstItem="Ztn-Eh-zi7" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="8lo-0T-ikA"/>
+                            <constraint firstItem="Ztn-Eh-zi7" firstAttribute="width" secondItem="Ze5-6b-2t3" secondAttribute="width" multiplier="0.494" id="R6P-Xn-Qf1"/>
+                            <constraint firstItem="0uv-VW-7QE" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" id="U1C-1F-bhI"/>
+                            <constraint firstItem="0uv-VW-7QE" firstAttribute="height" secondItem="Ze5-6b-2t3" secondAttribute="height" multiplier="0.146" id="cc2-3W-cxK"/>
+                            <constraint firstItem="0uv-VW-7QE" firstAttribute="width" secondItem="Ze5-6b-2t3" secondAttribute="width" multiplier="0.706" id="fgq-bf-eGK"/>
+                            <constraint firstItem="Ztn-Eh-zi7" firstAttribute="height" secondItem="Ze5-6b-2t3" secondAttribute="height" multiplier="0.08" id="nAs-TC-NO3"/>
+                            <constraint firstItem="Ztn-Eh-zi7" firstAttribute="top" secondItem="0uv-VW-7QE" secondAttribute="bottom" constant="8" id="yYJ-cs-CJN"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="330" y="364"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="small-logo.png" width="260" height="53"/>
+    </resources>
+</document>
